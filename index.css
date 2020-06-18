@@ -1,0 +1,206 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+/*body/universal*/
+body{
+    margin: 0;
+    background-color: rgba(168, 88, 49);
+}
+
+/*style for header*/
+#headerh2 {
+    font-size: 1.7vw;
+    text-align:  left;
+    padding-left: 1%;
+    color:  #141111;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    overflow: hidden;
+    margin: 0;
+    padding: 20;
+    width: 100%;
+}
+
+/*style for navbar*/
+.topnav{
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: rgba(168, 88, 49, .5);
+    width: 100%;
+}
+
+.topnav a{ 
+    font-size: 1.1vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    color: rgba(190, 180, 185, .8);
+    padding: 16px 16px;
+    text-align: center;
+    display: block;
+}
+
+.topnav a:hover {
+    background-color: rgb(140, 106, 95);
+}
+
+.topnav a:hover:before {
+        width: 100%;
+    }
+
+.topnav a:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: .15em;
+    background-color: rgba(62, 70, 90, .7);
+    width: 0%;
+    transition: all ease-in-out 300ms;
+    }
+
+* {
+  box-sizing: border-box;
+}
+
+.fixedbg{
+    width: 100%;
+    background-color: rgba(62, 70, 90, .7); 
+}
+
+/*style for index*/
+.aboutweb{
+    padding: 2em;
+    padding-right: 50%;
+    font-size: 1.1vw;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*style for about us*/
+
+/*column style on about us*/
+/* Create two equal columns*/
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/*text/img style on aboutus*/
+.aboutus {
+    padding: 1em;
+}
+
+.aboutus h2{
+    padding-top: 2em;
+    font-size: 1.7vw;
+    padding-left: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.aboutus p,
+.student p {
+    font-size: 1.1vw;
+    padding-left: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.aboutusimg,
+.studentimg {
+    padding-top: .75em;
+    padding-left: .25em;
+}
+
+.student h3 {
+    padding-top: 5em;
+    font-size: 1.7vw;
+    padding-left: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*style on menu page*/
+.menu h1{
+    padding-left: 1em;
+    padding-bottom: .75em;
+    font-size: 1.9vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu p {
+    padding-bottom: .75em;
+    padding-left: 5em;
+    font-size: 1.2vw;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.prices p{
+    padding-bottom: .75em;
+    font-size: 1.2vw;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*style on order page*/
+.form{
+    padding-top: 1em;
+}
+
+/*style for contact us*/
+/* Create 3 equal columns*/
+.columntrip {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.rowtrip:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .columntrip {
+    width: 100%;
+  }
+}
+
+.phone p,
+.address p,
+.email a {
+ font-size: 1.1vw;
+ padding-left: .5em;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.phone h4,
+.address h4,
+.email h4 {
+ font-size: 1.35vw;
+ padding-left: .7em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/*to do*/
+/*make website browser compatible*/
