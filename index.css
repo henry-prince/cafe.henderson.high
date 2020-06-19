@@ -1,15 +1,17 @@
-/*fonts*/
+/*styles across every page*/
+
+/*simple fonts, kept the same accross the whole website*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 
-/*body/universal*/
+/*body style, keeps everything to the edge to minimize gaps on page and set the background color*/
 body{
     margin: 0;
     background-color: rgba(168, 88, 49);
 }
 
-/*style for header*/
+/*this is the style for the header text, this keeps the font responsively sized and alinged and sets a header font style*/
 #headerh2 {
     font-size: 1.7vw;
     text-align:  left;
@@ -18,6 +20,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+/*this is the style for the header itselft, this sets the height and width and also removes any gaps or issues between the navbar and header*/
 header{
     overflow: hidden;
     margin: 0;
@@ -25,7 +28,7 @@ header{
     width: 100%;
 }
 
-/*style for navbar*/
+/*this is the style for the whole navbar, this makes the navber stick to the top of the page and makes it partly transparent*/
 .topnav{
     overflow: hidden;
     position: sticky;
@@ -34,6 +37,7 @@ header{
     width: 100%;
 }
 
+/*this is the style for the navbar "a" tag this gives the button a blocky look and also keeps everything in line and looking great, this also has a responsive font size and and sets the font style*/
 .topnav a{ 
     font-size: 1.1vw;
     font-family: 'Source Sans Pro', sans-serif;
@@ -44,14 +48,18 @@ header{
     display: block;
 }
 
+/*this changes the background color of the navbar buttoms (indiviadialy) as you hover over them*/
 .topnav a:hover {
     background-color: rgb(140, 106, 95);
 }
 
+/* why is this here 
 .topnav a:hover:before {
         width: 100%;
     }
+*/
 
+/*this is the style for the animation on the navbar button, its sets the size, color, type on animation and how long the animation lasts*/
 .topnav a:before {
     content: "";
     display: block;
@@ -62,16 +70,19 @@ header{
     transition: all ease-in-out 300ms;
     }
 
+/*this makes sure that everything on the page stays within the page making it more responvise, this makes sure that the user doesnt have to scroll to the side and keeps on the content on page*/
 * {
   box-sizing: border-box;
 }
 
+/*this is the background behind the footer (google map)*/
 .fixedbg{
     width: 100%;
     background-color: rgba(62, 70, 90, .7); 
 }
 
-/*style for index*/
+/*style on homepage*/
+/*this is the style for the text on the home page, this keeps it responviely aligned and sized and gives the font sytle*/
 .aboutweb{
     padding: 2em;
     padding-right: 50%;
@@ -82,21 +93,20 @@ header{
 
 /*style for about us*/
 
-/*column style on about us*/
-/* Create two equal columns*/
+/*this creates two equal columns*/
 .column {
   float: left;
   width: 50%;
 }
 
-/* Clear floats after the columns */
+/*this clears floats after the columns*/
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/*this is for a responsive layout, it makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -104,11 +114,12 @@ header{
 }
 
 
-/*text/img style on aboutus*/
+/**/
 .aboutus {
     padding: 1em;
 }
 
+/*this is the style for the about us title, this responsively aligns the page and sets font size and also sets the font style*/
 .aboutus h2{
     padding-top: 2em;
     font-size: 1.7vw;
@@ -116,6 +127,7 @@ header{
     font-family: 'Ubuntu', sans-serif;
 }
 
+/*this sets ALL the paragraph styles on about us, it responsively sets size, alginment and also sets the font style*/
 .aboutus p,
 .student p {
     font-size: 1.1vw;
@@ -123,12 +135,14 @@ header{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*this responsively aligns all the images on about it to make sure everything looks good*/
 .aboutusimg,
 .studentimg {
     padding-top: .75em;
     padding-left: .25em;
 }
 
+/*this sets the student profile titles, this keeps it responsively aligned, sizes and it set the font style*/ 
 .student h3 {
     padding-top: 5em;
     font-size: 1.7vw;
