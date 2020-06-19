@@ -39,7 +39,7 @@ header{
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     color: rgba(190, 180, 185, .8);
-    padding: 16px 16px;
+    padding: .5em .5em;
     text-align: center;
     display: block;
 }
