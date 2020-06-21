@@ -20,7 +20,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-/*this is the style for the header itselft, this sets the height and width and also removes any gaps or issues between the navbar and header*/
+/*this is the style for the header itself, this sets the height and width and also removes any gaps or issues between the navbar and header*/
 header{
     overflow: hidden;
     margin: 0;
@@ -150,12 +150,14 @@ header{
 }
 
 /*style on menu page*/
+/*sets font size and alignment to be responsive, also sets font style*/
 .menu h1{
     padding-left: 1em;
     padding-bottom: .75em;
     font-size: 1.9vw;
     font-family: 'Ubuntu', sans-serif;
 }
+
 
 .menu p {
     padding-bottom: .75em;
