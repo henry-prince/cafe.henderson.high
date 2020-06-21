@@ -53,11 +53,10 @@ header{
     background-color: rgb(140, 106, 95);
 }
 
-/* why is this here 
+/* this sets up the line animation before t is displayed*/
 .topnav a:hover:before {
         width: 100%;
     }
-*/
 
 /*this is the style for the animation on the navbar button, its sets the size, color, type on animation and how long the animation lasts*/
 .topnav a:before {
