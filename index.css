@@ -218,7 +218,7 @@ header{
 /*this code changes the look of the website to work on mobile phones*/
 
 /*this changes font size on mobile*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
     .phone p,
     .address p,
     .email a,
