@@ -215,7 +215,19 @@ header{
     font-family: 'Ubuntu', sans-serif;
 }
 
+/*this code changes the look of the website to work on mobile phones*/
 
+@media screen and (max-width: 400px) {
+    .phone p,
+    .address p,
+    .email a,
+    .aboutus p,
+    .student p,
+    .aboutweb,
+    .topnav a {
+     font-size: 2vw;   
+    }
+}
 
 /*to do*/
 /*make website browser compatible*/
