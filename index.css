@@ -192,7 +192,7 @@ header{
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .columntrip {
     width: 100%;
   }
@@ -217,7 +217,8 @@ header{
 
 /*this code changes the look of the website to work on mobile phones*/
 
-@media screen and (max-width: 400px) {
+/*this changes font size on mobile*/
+@media screen and (max-width: 450px) {
     .phone p,
     .address p,
     .email a,
@@ -225,9 +226,32 @@ header{
     .student p,
     .aboutweb,
     .topnav a {
-     font-size: 2vw;   
+     font-size: 4.1vw;   
     }
+    .phone h4,
+    .address h4,
+    .email h4 {
+     font-size: 4.35vw;   
+    }
+    .menu p,
+    .prices p {
+     font-size: 4.2vw;
+    }
+    .menu h1 {
+        font-size: 4.9vw;
+    }
+    #headerh2,
+    .aboutus h2,
+    .student h3 {
+     font-size: 4.7vw;   
+    }    
 }
+
+/*this changes padding size on mobile*/
+    @media screen and (max-width: 450){
+        
+}
+
 
 /*to do*/
 /*make website browser compatible*/
