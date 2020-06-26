@@ -129,7 +129,7 @@ header{
 /*this sets ALL the paragraph styles on about us, it responsively sets size, alginment and also sets the font style*/
 .aboutus p,
 .student p {
-    font-size: 1.1vw;
+    font-size: 1.35vw;
     padding-left: 1em;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -222,15 +222,15 @@ header{
     .phone p,
     .address p,
     .email a,
-    .aboutus p,
-    .student p,
     .aboutweb,
     .topnav a {
      font-size: 4.1vw;   
     }
     .phone h4,
     .address h4,
-    .email h4 {
+    .email h4,
+    .aboutus p,
+    .student p,{
      font-size: 4.35vw;   
     }
     .menu p,
