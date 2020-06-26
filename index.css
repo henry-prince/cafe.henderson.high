@@ -24,7 +24,7 @@ body{
 header{
     overflow: hidden;
     margin: 0;
-    padding: 20;
+    padding: 20px;
     width: 100%;
 }
 
@@ -230,7 +230,7 @@ header{
     .address h4,
     .email h4,
     .aboutus p,
-    .student p,{
+    .student p {
      font-size: 4.35vw;   
     }
     .menu p,
@@ -246,12 +246,3 @@ header{
      font-size: 4.7vw;   
     }    
 }
-
-/*this changes padding size on mobile*/
-    @media screen and (max-width: 450){
-        
-}
-
-
-/*to do*/
-/*make website browser compatible*/
